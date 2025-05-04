@@ -1,0 +1,24 @@
+@media only screen and (max-width: 767px){
+	.logo{
+		width: 200px;
+		margin: 20px auto 0;
+	}
+
+	.social-icon{
+		width: 168px;
+		margin: 20px auto;
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 576px){
+	.logo{
+		display: none;
+	}
+	.navbar-brand{
+		display: block;
+	}
+	.navbar-brand img{
+		width: 180px;
+	}
+}

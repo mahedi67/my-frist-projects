@@ -1,0 +1,115 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*======End header======*/
+
+header{
+	border-top: 5px solid #d00b01;
+}
+
+
+.logo{
+	margin: 37px 0 42px 0;
+}
+
+
+.social-icon{
+	float: right;
+	margin: 54px 0 0 0;
+}
+
+.social-icon ul li{
+	display: inline-block;
+}
+
+.social-icon ul li a{
+	height: 30px;
+	width: 30px;
+	display: block;
+	background: #d1d1d1;
+	color: #fff;
+	border-radius: 100%;
+	text-align: center;
+	padding: 7px 0 0 0;
+	transition:.5s;
+}
+
+.social-icon ul li a:hover{
+	background: #d00b01;
+}
+
+
+@font-face {
+  font-family: OpenSans-ExtraBold;
+  src: url("../fonts/OpenSans-ExtraBold.ttf");
+}
+
+
+nav.navbar{
+	border-bottom:1px solid #5d5d5d
+}
+ul.navbar-nav li a.nav-link{
+	font-family: 'OpenSans-ExtraBold';
+	font-size: 14px;
+	color: #313131;
+	text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #c5c5c5;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+	color: #d00b01;
+}
+
+.navbar-brand{
+	display: none;
+}
